@@ -1,0 +1,129 @@
+BODY
+{
+    FONT-SIZE: 8pt;
+    COLOR: #464646;
+    FONT-FAMILY: "Arial", "Verdana", "Helvetica", sans-serif
+	background-color:white;
+	margin-top:10px;
+	margin-left:7px;
+}
+TD
+{
+    FONT-SIZE: 8pt;
+    COLOR: #464646;
+    FONT-FAMILY: "Arial", "Verdana", "Helvetica", sans-serif
+}
+TH
+{
+    FONT-SIZE: 8pt;
+    COLOR: #464646;
+    FONT-FAMILY: "Arial", "Verdana", "Helvetica", sans-serif
+}
+H4
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: red
+}
+A
+{
+    FONT-SIZE: 7pt;
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    FONT-SIZE: 7pt;
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.nav
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: red;
+    TEXT-DECORATION: none
+}
+A.nav:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: red;
+    TEXT-DECORATION: none
+}
+A.forum
+{
+    FONT-SIZE: 8pt;
+    TEXT-DECORATION: none
+}
+A.forum:visited
+{
+    FONT-SIZE: 8pt;
+    TEXT-DECORATION: none
+}
+A.forum:hover
+{
+    TEXT-DECORATION: underline
+}
+A.name
+{
+    FONT-SIZE: 8pt
+}
+A.name:visited
+{
+    FONT-SIZE: 8pt
+}
+TD.label
+{
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: top;
+    MARGIN-RIGHT: 2px;
+    TEXT-ALIGN: right
+}
+TD.field
+{
+    VERTICAL-ALIGN: top
+}
+TD.design
+{
+    FONT-WEIGHT: normal;
+    COLOR: black
+}
+TD.reply
+{
+    BORDER-BOTTOM: silver 1px solid
+}
+TD.gallery
+{
+    FONT-SIZE: 7pt
+}
+.required
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    MARGIN-LEFT: 2px;
+    VERTICAL-ALIGN: top;
+    COLOR: red
+}
+.error
+{
+    COLOR: red
+}
+.edit
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: "Arial", "Verdana", "Helvetica", sans-serif;
+    BACKGROUND-COLOR: #d3d3d3
+}
+.dark
+{
+    COLOR: black
+}
+.gray
+{
+    COLOR: silver
+}

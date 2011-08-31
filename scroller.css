@@ -1,0 +1,19 @@
+/* typography */
+#scroller, #scroller td { font-family:geneva, arial, sans-serif; font-size:10px; color:#2A2A2A; }
+@media all { #scroller, #scroller td { font-size:9px; } }
+#scroller .ownerName { color:#666666; }
+#scroller .postNumber { color:#9A9A9A; }
+#scroller .postDate { color:#C4C4C4; }
+
+/* positioning */
+#scroller { position:absolute; left:10px; top:32px; width:370px; height:263px; clip:rect(0 370 263 0); overflow:hidden; }
+#scroller #container { position:absolute; top:5px; width:350px; height:253px; clip:rect(0 350 253 0); overflow:hidden; }
+#scroller #content { position:absolute; width:350px; }
+#scroller #scrollUp { position:absolute; left:360px; top:3px; }
+#scroller #scrollDn { position:absolute; left:360px; top:254px; }
+#scroller #scrollbar { position:absolute; left:360px; top:14px; width:10px; height:237px; clip:rect(0 10 237 0); }
+#scroller #thumb { position:absolute; left:0px; top:0px; background-color:#CCCCCC; layer-background-color:#CCCCCC; }
+#scroller #thumbArrowUp, #scroller #thumbArrowDn { position:absolute; left:2px; visibility:hidden; }
+#scroller #marker { position:absolute; left:1px; top:0px; width:8px; height:1px; clip:rect(0 10 1 0); background-color:#CCCCCC; layer-background-color:#CCCCCC; visibility:hidden; }
+#scroller #scrollerMo5Shim { position:absolute; left:0px; top:5px; width:1px; height:1px; }
+#scroller #elevUp, #scroller #elevDn { position:absolute; left:0px; top:0px; width:10px; height:237px; overflow:hidden; clip:rect(0 10 237 0); }
