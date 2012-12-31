@@ -6,7 +6,7 @@
 #scroller .postDate { color:#C4C4C4; }
 
 /* positioning */
-#scroller { position:absolute; left:10px; top:32px; width:370px; height:263px; clip:rect(0 370 263 0); overflow:hidden; }
+#scroller { position:relative; width:370px; height:263px; clip:rect(0 370 263 0); overflow:hidden; }
 #scroller #container { position:absolute; top:5px; width:350px; height:253px; clip:rect(0 350 253 0); overflow:hidden; }
 #scroller #content { position:absolute; width:350px; }
 #scroller #scrollUp { position:absolute; left:360px; top:3px; }
